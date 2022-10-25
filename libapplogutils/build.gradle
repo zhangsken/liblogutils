@@ -16,7 +16,7 @@ afterEvaluate {
         release(MavenPublication) {
             groupId = 'com.github.loneyz'
             artifactId = 'libapplogutils'
-            version = '1.0.5'
+            version = '1.0.0'
 
             //from components.java
             // 必须有这个 否则不会上传AAR包
