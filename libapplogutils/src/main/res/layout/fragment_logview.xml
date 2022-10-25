@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<LinearLayout
+		android:orientation="vertical"
+		android:layout_width="match_parent"
+		android:layout_height="0dp"
+		android:layout_weight="1.0">
+
+		<RelativeLayout
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+
+			<TextView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+				android:layout_alignParentLeft="true"
+				android:id="@+id/fragmentlogviewTextView2"
+				android:layout_centerVertical="true"/>
+
+			<HorizontalScrollView
+				android:layout_width="wrap_content"
+				android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/fragmentlogviewTextView2"
+				android:layout_alignParentRight="true">
+
+				<LinearLayout
+					android:orientation="horizontal"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+
+					<Button
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="Clear"
+						android:layout_gravity="center_vertical"
+						android:id="@+id/fragmentlogviewButton4"/>
+
+					<Button
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="DefaultClassTAG"
+						android:id="@+id/fragmentlogviewButton5"/>
+
+					<CheckBox
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="IsSync"
+						android:layout_gravity="center_vertical"
+						android:id="@+id/fragmentlogviewCheckBox1"/>
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="LogViewLevel"
+						android:layout_gravity="center_vertical"/>
+
+					<Spinner
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:id="@+id/fragmentlogviewSpinner3"/>
+
+				</LinearLayout>
+
+			</HorizontalScrollView>
+
+		</RelativeLayout>
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+
+			<HorizontalScrollView
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:paddingLeft="5dp"
+				android:paddingRight="5dp">
+
+				<LinearLayout
+					android:orientation="horizontal"
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content">
+
+					<Button
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="+ TAG"
+						android:id="@+id/fragmentlogviewButton1"/>
+
+					<Button
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:text="- TAG"
+						android:id="@+id/fragmentlogviewButton2"/>
+
+					<Spinner
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:id="@+id/fragmentlogviewSpinner1"/>
+
+				</LinearLayout>
+
+			</HorizontalScrollView>
+
+			<LinearLayout
+				android:orientation="horizontal"
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:gravity="center_vertical">
+
+				<Button
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:text="TestLog"
+					android:id="@+id/fragmentlogviewButton3"/>
+
+				<TextView
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:textIsSelectable="true"
+					android:text="CurrentTAG:"
+					android:paddingLeft="5dp"
+					android:paddingRight="5dp"
+					android:id="@+id/fragmentlogviewTextView1"/>
+
+				<Spinner
+					android:layout_width="wrap_content"
+					android:layout_height="wrap_content"
+					android:id="@+id/fragmentlogviewSpinner2"/>
+
+			</LinearLayout>
+
+		</LinearLayout>
+
+		<LinearLayout
+			android:orientation="vertical"
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:layout_weight="1.0">
+
+			<ScrollView
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:padding="5dp"
+				android:id="@+id/fragmentlogviewScrollView1">
+
+				<TextView
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:textIsSelectable="true"
+					android:id="@+id/fragmentlogviewTextView3"/>
+
+			</ScrollView>
+
+		</LinearLayout>
+
+	</LinearLayout>
+
+</LinearLayout>
+

@@ -1,0 +1,77 @@
+apply plugin: 'com.android.library'
+apply plugin: 'maven-publish'
+
+// Because the components are created only during the afterEvaluate phase, you must
+// configure your publications using the afterEvaluate() lifecycle method.
+afterEvaluate {
+    publishing {
+        // 自定义本地Maven路径，默认路径是~/.m2/repository
+        //repositories {
+        //    maven {
+        //        name = 'localRepo'
+        //        url = "file:///storage/emulated/0/Maven/repository"
+        //    }
+        //}
+        publications {
+        release(MavenPublication) {
+            groupId = 'com.github.loneyz'
+            artifactId = 'libapplogutils'
+            version = '1.0.5'
+
+            //from components.java
+            // 必须有这个 否则不会上传AAR包
+            afterEvaluate { artifact(tasks.getByName("bundleReleaseAar")) }
+            // 上传source，这样使用方可以看到方法注释
+            //artifact generateSourcesJar
+            //要上传的aar路径
+            //artifact "$buildDir/outputs/aar/${project.getName()}-release.aar"
+            //artifact "$buildDir/outputs/aar/${project.getName()}-debug.aar"
+            
+            pom {
+                name = 'Application Log Utils Library'
+                description = 'Loneyz\'s Application Log Utils Library'
+                url = 'https://github.com/loneyz/libapplogutils.git'
+                licenses {
+                    license {
+                        name = 'The Apache License, Version 2.0'
+                        url = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+                        }
+                }
+                developers {
+                    developer {
+                        id = 'loneyz'
+                        name = 'loneyz'
+                        email = 'l3981402@gmail.com'
+                    }
+                }
+            }
+        }
+    }
+    }
+}
+
+
+android {
+    compileSdk 32
+    buildToolsVersion '30.0.3'
+    defaultConfig {
+        minSdkVersion 14
+        targetSdkVersion 29
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_11
+        targetCompatibility JavaVersion.VERSION_11
+    }
+}
+
+dependencies {
+    implementation 'commons-lang:commons-lang:2.6'
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+}

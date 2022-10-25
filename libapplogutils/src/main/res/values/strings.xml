@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="logview_name">LogView</string>
+    <string name="toolbarfragmentlogview_cleanlog"><u>CleanLog</u></string>
+    <string name="toolbarfragmentlogview_synclog"><u>SyncLog</u></string>
+    <string name="toolbarfragmentlogview_defaulttag"><u>DefaultTAG</u></string>
+</resources>
