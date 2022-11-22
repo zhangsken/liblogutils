@@ -1,4 +1,4 @@
-package com.github.loneyz.libapplogutils;
+package cc.zhangsken.studio.liblogutils;
 import android.os.*;
 import java.lang.ref.*;
 import java.text.SimpleDateFormat;

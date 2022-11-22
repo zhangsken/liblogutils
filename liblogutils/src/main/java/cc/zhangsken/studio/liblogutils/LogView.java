@@ -1,4 +1,4 @@
-package com.github.loneyz.libapplogutils;
+package cc.zhangsken.studio.liblogutils;
 
 import android.view.View;
 import android.content.Context;

@@ -1,4 +1,4 @@
-package com.github.loneyz.libapplogutils;
+package cc.zhangsken.studio.liblogutils;
 import java.util.ArrayList;
 import java.util.Set;
 import java.util.Iterator;

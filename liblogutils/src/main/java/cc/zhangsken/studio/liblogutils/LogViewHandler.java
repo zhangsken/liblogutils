@@ -1,4 +1,4 @@
-package com.github.loneyz.libapplogutils;
+package cc.zhangsken.studio.liblogutils;
 
 import java.lang.ref.WeakReference;
 import android.os.Handler;

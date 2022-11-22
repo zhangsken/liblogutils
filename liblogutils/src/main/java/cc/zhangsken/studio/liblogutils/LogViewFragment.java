@@ -1,4 +1,4 @@
-package com.github.loneyz.libapplogutils;
+package cc.zhangsken.studio.liblogutils;
 
 /*
  * Powerby : ZhanGSKen(ZhangShaojian2018@163.com)
@@ -32,8 +32,8 @@ import android.widget.Button;
 import android.widget.ScrollView;
 import android.widget.Spinner;
 import android.widget.TextView;
-import com.github.loneyz.libapplogutils.R;
-import com.github.loneyz.libapplogutils.ClassUtils;
+import cc.zhangsken.studio.liblogutils.R;
+import cc.zhangsken.studio.liblogutils.ClassUtils;
 import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;

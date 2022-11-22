@@ -1,4 +1,4 @@
-package com.github.loneyz.libapplogutils;
+package cc.zhangsken.studio.liblogutils;
 
 /*
  * Powerby : ZhanGSKen(ZhangShaojian2018@163.com)

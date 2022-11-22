@@ -14,8 +14,8 @@ afterEvaluate {
         //}
         publications {
         release(MavenPublication) {
-            groupId = 'com.github.loneyz'
-            artifactId = 'libapplogutils'
+            groupId = 'cc.zhangsken.studio'
+            artifactId = 'liblogutils'
             version = '1.0.0'
 
             //from components.java
@@ -28,8 +28,8 @@ afterEvaluate {
             //artifact "$buildDir/outputs/aar/${project.getName()}-debug.aar"
             
             pom {
-                name = 'Application Log Utils Library'
-                description = 'Loneyz\'s Application Log Utils Library'
+                name = 'Log Utils Library'
+                description = 'Gian\'s Application Log Utils Library'
                 url = 'https://github.com/loneyz/libapplogutils.git'
                 licenses {
                     license {

@@ -1,4 +1,4 @@
-package com.github.loneyz.applogutils;
+package cc.zhangsken.studio.logutils;
 import android.util.Log;
 
 public class TestClassA {

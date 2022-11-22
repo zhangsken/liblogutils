@@ -1,4 +1,4 @@
-package com.github.loneyz.libapplogutils;
+package cc.zhangsken.studio.liblogutils;
 
 import android.util.Log;
 import android.os.Message;
@@ -7,7 +7,7 @@ import android.os.Handler;
 import java.io.BufferedReader;
 import android.os.Looper;
 import java.io.IOException;
-import com.github.loneyz.libapplogutils.LogViewHandler;
+import cc.zhangsken.studio.liblogutils.LogViewHandler;
 import java.text.SimpleDateFormat;
 import java.io.InputStreamReader;
 import java.util.ArrayList;

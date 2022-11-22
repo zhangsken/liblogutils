@@ -47,7 +47,7 @@
 
 		</LinearLayout>
 
-		<com.github.loneyz.libapplogutils.LogView
+		<cc.zhangsken.studio.liblogutils.LogView
 			xmlns:app="http://schemas.android.com/apk/res-auto"
 			app:tagList=""
 			app:levelDefault="D"
