@@ -17,7 +17,7 @@ afterEvaluate {
             groupId = 'com.github.zhangsken'
             artifactId = 'liblogutils'
             //{版本控制号}.{功能号}.{调试号}
-            version = '1.0.0'
+            version = '1.0.1'
 
             //from components.java
             // 必须有这个 否则不会上传AAR包
