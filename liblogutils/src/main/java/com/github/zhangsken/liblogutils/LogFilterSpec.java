@@ -1,4 +1,4 @@
-package cc.zhangsken.studio.liblogutils;
+package com.github.zhangsken.liblogutils;
 import java.util.ArrayList;
 import java.util.Set;
 import java.util.Iterator;

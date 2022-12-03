@@ -5,12 +5,12 @@ android {
     buildToolsVersion '30.0.3'
 
     defaultConfig {
-        applicationId "cc.zhangsken.studio.logutils"
-        minSdkVersion 14
+        applicationId "com.github.zhangsken.logutils"
+        minSdkVersion 21
         targetSdkVersion 29
         versionCode 1
         //{版本控制号}.{功能号}.{调试号}
-        versionName "3.0.0"
+        versionName "1.0.0"
     }
     buildTypes {
         release {
@@ -23,6 +23,6 @@ android {
 
 dependencies {
 	implementation project(':liblogutils')
-    implementation 'com.github.gianstudio:libapputils:1.1.1'
+    implementation 'com.github.zhangsken:libapputils:1.1.0'
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 }

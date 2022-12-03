@@ -1,4 +1,4 @@
-package cc.zhangsken.studio.liblogutils;
+package com.github.zhangsken.liblogutils;
 
 /*
  * Powerby : ZhanGSKen(ZhangShaojian2018@163.com)
@@ -32,8 +32,8 @@ import android.widget.Button;
 import android.widget.ScrollView;
 import android.widget.Spinner;
 import android.widget.TextView;
-import cc.zhangsken.studio.liblogutils.R;
-import cc.zhangsken.studio.liblogutils.ClassUtils;
+import com.github.zhangsken.liblogutils.R;
+import com.github.zhangsken.liblogutils.ClassUtils;
 import java.io.BufferedReader;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;

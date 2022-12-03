@@ -1,4 +1,4 @@
-package cc.zhangsken.studio.liblogutils;
+package com.github.zhangsken.liblogutils;
 
 import android.view.View;
 import android.content.Context;

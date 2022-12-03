@@ -1,4 +1,4 @@
-package cc.zhangsken.studio.liblogutils;
+package com.github.zhangsken.liblogutils;
 
 import java.lang.ref.WeakReference;
 import android.os.Handler;

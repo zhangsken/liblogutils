@@ -1,4 +1,4 @@
-package cc.zhangsken.studio.logutils;
+package com.github.zhangsken.logutils;
 import android.util.Log;
 
 public class TestClassA {

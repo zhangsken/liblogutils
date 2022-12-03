@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="cc.zhangsken.studio.liblogutils">
+    package="com.github.zhangsken.liblogutils">
   <application>
         <activity
 			android:resizeableActivity="true"

@@ -1,4 +1,4 @@
-package cc.zhangsken.studio.liblogutils;
+package com.github.zhangsken.liblogutils;
 
 /*
  * Powerby : ZhanGSKen(ZhangShaojian2018@163.com)

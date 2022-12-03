@@ -14,8 +14,9 @@ afterEvaluate {
         //}
         publications {
         release(MavenPublication) {
-            groupId = 'cc.zhangsken.studio'
+            groupId = 'com.github.zhangsken'
             artifactId = 'liblogutils'
+            //{版本控制号}.{功能号}.{调试号}
             version = '1.0.0'
 
             //from components.java
@@ -29,8 +30,8 @@ afterEvaluate {
             
             pom {
                 name = 'Log Utils Library'
-                description = 'Gian\'s Application Log Utils Library'
-                url = 'https://github.com/loneyz/libapplogutils.git'
+                description = 'ZhanGSKen\'s Log Utils Library'
+                url = 'https://github.com/zhangsken/liblogutils.git'
                 licenses {
                     license {
                         name = 'The Apache License, Version 2.0'
@@ -39,9 +40,9 @@ afterEvaluate {
                 }
                 developers {
                     developer {
-                        id = 'loneyz'
-                        name = 'loneyz'
-                        email = 'l3981402@gmail.com'
+                        id = 'zhangsken'
+                        name = 'ZhanGSKen'
+                        email = 'ZhanGSKen@QQ.COM'
                     }
                 }
             }

@@ -1,4 +1,4 @@
-package cc.zhangsken.studio.liblogutils;
+package com.github.zhangsken.liblogutils;
 
 import android.util.Log;
 import android.os.Message;
@@ -7,7 +7,7 @@ import android.os.Handler;
 import java.io.BufferedReader;
 import android.os.Looper;
 import java.io.IOException;
-import cc.zhangsken.studio.liblogutils.LogViewHandler;
+import com.github.zhangsken.liblogutils.LogViewHandler;
 import java.text.SimpleDateFormat;
 import java.io.InputStreamReader;
 import java.util.ArrayList;

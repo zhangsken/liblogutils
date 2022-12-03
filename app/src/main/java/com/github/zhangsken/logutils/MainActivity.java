@@ -1,17 +1,17 @@
-package cc.zhangsken.studio.logutils;
+package com.github.zhangsken.logutils;
  
 import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.content.Intent;
 import android.widget.Toast;
-import cc.zhangsken.studio.liblogutils.LogViewFragment;
+import com.github.zhangsken.liblogutils.LogViewFragment;
 import android.app.FragmentTransaction;
-import cc.zhangsken.studio.liblogutils.LogView;
+import com.github.zhangsken.liblogutils.LogView;
 import android.util.Log;
 import android.widget.LinearLayout;
 import android.os.Handler;
-import cc.zhangsken.studio.liblogutils.LogFilterSpec;
+import com.github.zhangsken.liblogutils.LogFilterSpec;
 
 public class MainActivity extends Activity {
     private static String TAG = "MainActivity";
@@ -50,7 +50,7 @@ public class MainActivity extends Activity {
     
 	public void onTestLogViewActivity(View v) {
         if(isInMultiWindowMode()) {
-            Intent i = new Intent(MainActivity.this, cc.zhangsken.studio.liblogutils.LogViewActivity.class);
+            Intent i = new Intent(MainActivity.this, com.github.zhangsken.liblogutils.LogViewActivity.class);
             i.setFlags(Intent.FLAG_ACTIVITY_LAUNCH_ADJACENT | Intent.FLAG_ACTIVITY_NEW_TASK);
             startActivity(i);
         } else {
