@@ -1,4 +1,4 @@
-# Application Log Utils Library
-Loneyz's Application Log Utils Library.
+# Log Utils Library
+ZhanGSKen's Log Utils Library.
 
-[![](https://jitpack.io/v/loneyz/libapplogutils.svg)](https://jitpack.io/#loneyz/libapplogutils)
+[![](https://jitpack.io/v/zhangsken/liblogutils.svg)](https://jitpack.io/#zhangsken/liblogutils)
